@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Blog.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Blog.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blog.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Blog.Core/1.0.0": {
+      "type": "project",
+      "path": "../Blog.Core/Blog.Core.csproj",
+      "msbuildProject": "../Blog.Core/Blog.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Blog.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\KC\\.nuget\\packages\\": {}
@@ -34,7 +53,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Core\\Blog.Core.csproj": {
+              "projectPath": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Core\\Blog.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
