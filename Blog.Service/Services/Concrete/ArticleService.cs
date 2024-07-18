@@ -48,22 +48,54 @@ namespace Blog.Service.Services.Concrete
                 IsAscending = isAscending
             };
         }
-        public async Task CreateArticleAsync(ArticleAddDto articleAddDto)
-        {
+        // public async Task CreateArticleAsync(ArticleAddDto articleAddDto)
+        // {
+        //     //var userId = _user.GetLoggedInUserId();
+        //     //var userEmail = _user.GetLoggedInEmail();
+        //     // var userId = "3aa42229-1c0f-4630-8c1a-db879ecd0427";
+        //     var userId = Guid.Parse("3aa42229-1c0f-4630-8c1a-db879ecd0427");
+        //     var userEmail = "admin@gmail.com";
+        //     var imageUpload = await imageHelper.Upload(articleAddDto.Title, articleAddDto.Photo, ImageType.Post);
+        //     Image image = new(imageUpload.FullName, articleAddDto.Photo.ContentType, userEmail);
+        //     await unitOfWork.GetRepository<Image>().AddAsync(image);
+        //     var article = new Article(articleAddDto.Title, articleAddDto.Content, userId, userEmail, articleAddDto.CategoryId, image.Id);
+        //     await unitOfWork.GetRepository<Article>().AddAsync(article);
+        //     await unitOfWork.SaveAsync();
+        // }
 
-            var userId = _user.GetLoggedInUserId();
-            var userEmail = _user.GetLoggedInEmail();
+public async Task<CreatedArticleResponse> CreateArticleAsync(ArticleAddDto articleAddDto)
+    {
+        // Get the logged-in user ID and email from the security context
+        // var userId = _user.GetLoggedInUserId(); 
+        // var userEmail = _user.GetLoggedInEmail();
 
-            var imageUpload = await imageHelper.Upload(articleAddDto.Title, articleAddDto.Photo, ImageType.Post);
-            Image image = new(imageUpload.FullName, articleAddDto.Photo.ContentType, userEmail);
-            await unitOfWork.GetRepository<Image>().AddAsync(image);
+                    
+        var userId = Guid.Parse("3aa42229-1c0f-4630-8c1a-db879ecd0427");
+        var userEmail = "admin@gmail.com";
+        //car id d23e4f79-9600-4b5e-b3e9-756cdcacd2b1
+        // Upload the image and create an image entity
+        var imageUpload = await imageHelper.Upload(articleAddDto.Title, articleAddDto.Photo, ImageType.Post);
+        var image = new Image(imageUpload.FullName, articleAddDto.Photo.ContentType, userEmail);
+        await unitOfWork.GetRepository<Image>().AddAsync(image);
 
-            var article = new Article(articleAddDto.Title, articleAddDto.Content, userId, userEmail, articleAddDto.CategoryId, image.Id);
+        var article = mapper.Map<Article>(articleAddDto);
+
+        article.UserId = userId;
+        article.CreatedBy = userEmail;
+        article.ImageId = image.Id;
+
+        await unitOfWork.GetRepository<Article>().AddAsync(article);
+        await unitOfWork.SaveAsync();
+
+  
+        
+        var response = mapper.Map<CreatedArticleResponse>(article);
+
+        return response;
 
 
-            await unitOfWork.GetRepository<Article>().AddAsync(article);
-            await unitOfWork.SaveAsync();
-        }
+    }
+
 
         public async Task<List<ArticleDto>> GetAllArticlesWithCategoryNonDeletedAsync()
         {
