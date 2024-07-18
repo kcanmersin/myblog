@@ -28,3 +28,4 @@ C:\Users\KC\source\repos\myblog\Blog.Web\obj\Debug\net6.0\refint\Blog.Web.dll
 C:\Users\KC\source\repos\myblog\Blog.Web\obj\Debug\net6.0\Blog.Web.pdb
 C:\Users\KC\source\repos\myblog\Blog.Web\obj\Debug\net6.0\Blog.Web.genruntimeconfig.cache
 C:\Users\KC\source\repos\myblog\Blog.Web\obj\Debug\net6.0\ref\Blog.Web.dll
+C:\Users\KC\source\repos\myblog\Blog.Web\obj\Debug\net6.0\Blog.Web.sourcelink.json
