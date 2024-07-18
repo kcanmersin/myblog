@@ -47,28 +47,14 @@ namespace Blog.Service.Services.Concrete
         }
 
 
-        // public async Task CreateCategoryAsync(CategoryAddDto categoryAddDto)
-        // {
-        //     var userEmail = _user.GetLoggedInEmail();
-
-        //     Category category = new(categoryAddDto.Name, userEmail);
-        //     await unitOfWork.GetRepository<Category>().AddAsync(category);
-        //     await unitOfWork.SaveAsync();
-
-        // }
-
-        public async Task<CreatedCategoryResponse> CreateCategoryAsync(CategoryAddDto categoryAddDto)
+        public async Task CreateCategoryAsync(CategoryAddDto categoryAddDto)
         {
-            // var userEmail = _user.GetLoggedInEmail();
+            var userEmail = _user.GetLoggedInEmail();
 
-       var userEmail = "admin@gmail.com";
             Category category = new(categoryAddDto.Name, userEmail);
             await unitOfWork.GetRepository<Category>().AddAsync(category);
             await unitOfWork.SaveAsync();
 
-            var map = mapper.Map<CreatedCategoryResponse>(category);
-
-            return map;
         }
         public async Task<Category> GetCategoryByGuid(Guid id)
         {

@@ -73,7 +73,6 @@ namespace Blog.Service.Helpers.Images
                  .Replace(" ", "");
         }
 
-
         public async Task<ImageUploadedDto> Upload(string name, IFormFile imageFile, ImageType imageType, string folderName = null)
         {
             folderName ??= imageType == ImageType.User ? userImagesFolder : articleImagesFolder;
@@ -83,16 +82,8 @@ namespace Blog.Service.Helpers.Images
 
             string oldFileName = Path.GetFileNameWithoutExtension(imageFile.FileName);
             string fileExtension = Path.GetExtension(imageFile.FileName);
-            
-            //log name, oldFileName, fileExtension
 
-            Console.WriteLine($"name: {name}");
-            Console.WriteLine($"oldFileName: {oldFileName}");
-            Console.WriteLine($"fileExtension: {fileExtension}");
-
-
-
-            name = ReplaceInvalidChars(oldFileName);
+            name = ReplaceInvalidChars(name);
 
             DateTime dateTime = DateTime.Now;
 

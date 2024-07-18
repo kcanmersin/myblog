@@ -3,30 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\KC\\source\\repos\\myblog\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BlogDb/True/SqlTable/dbo.Categories.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02DB3CF3-DCDD-47E1-89EE-B38C995C0979}|Blog.Service\\Blog.Service.csproj|c:\\users\\kc\\source\\repos\\myblog\\blog.service\\helpers\\images\\imagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02DB3CF3-DCDD-47E1-89EE-B38C995C0979}|Blog.Service\\Blog.Service.csproj|solutionrelative:blog.service\\helpers\\images\\imagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02DB3CF3-DCDD-47E1-89EE-B38C995C0979}|Blog.Service\\Blog.Service.csproj|c:\\users\\kc\\source\\repos\\myblog\\blog.service\\services\\concrete\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02DB3CF3-DCDD-47E1-89EE-B38C995C0979}|Blog.Service\\Blog.Service.csproj|solutionrelative:blog.service\\services\\concrete\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02DB3CF3-DCDD-47E1-89EE-B38C995C0979}|Blog.Service\\Blog.Service.csproj|c:\\users\\kc\\source\\repos\\myblog\\blog.service\\services\\concrete\\articleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02DB3CF3-DCDD-47E1-89EE-B38C995C0979}|Blog.Service\\Blog.Service.csproj|solutionrelative:blog.service\\services\\concrete\\articleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BlogDb/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B79D3AAF-BC0F-4BE6-B2C6-2412CDEF5F01}|Blog.Web\\Blog.Web.csproj|c:\\users\\kc\\source\\repos\\myblog\\blog.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B79D3AAF-BC0F-4BE6-B2C6-2412CDEF5F01}|Blog.Web\\Blog.Web.csproj|solutionrelative:blog.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{21FA5CA8-84D6-441A-A06F-CF5234A6812C}|Blog.Data\\Blog.Data.csproj|c:\\users\\kc\\source\\repos\\myblog\\blog.data\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21FA5CA8-84D6-441A-A06F-CF5234A6812C}|Blog.Data\\Blog.Data.csproj|solutionrelative:blog.data\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0A987E2-44A4-4066-80ED-190CAE31487D}|Blog.Entity\\Blog.Entity.csproj|c:\\users\\kc\\source\\repos\\myblog\\blog.entity\\entities\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0A987E2-44A4-4066-80ED-190CAE31487D}|Blog.Entity\\Blog.Entity.csproj|solutionrelative:blog.entity\\entities\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0A987E2-44A4-4066-80ED-190CAE31487D}|Blog.Entity\\Blog.Entity.csproj|c:\\users\\kc\\source\\repos\\myblog\\blog.entity\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0A987E2-44A4-4066-80ED-190CAE31487D}|Blog.Entity\\Blog.Entity.csproj|solutionrelative:blog.entity\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0A987E2-44A4-4066-80ED-190CAE31487D}|Blog.Entity\\Blog.Entity.csproj|c:\\users\\kc\\source\\repos\\myblog\\blog.entity\\entities\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0A987E2-44A4-4066-80ED-190CAE31487D}|Blog.Entity\\Blog.Entity.csproj|solutionrelative:blog.entity\\entities\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0A987E2-44A4-4066-80ED-190CAE31487D}|Blog.Entity\\Blog.Entity.csproj|c:\\users\\kc\\source\\repos\\myblog\\blog.entity\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -60,150 +50,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ImageHelper.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Service\\Helpers\\Images\\ImageHelper.cs",
-              "RelativeDocumentMoniker": "Blog.Service\\Helpers\\Images\\ImageHelper.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Service\\Helpers\\Images\\ImageHelper.cs",
-              "RelativeToolTip": "Blog.Service\\Helpers\\Images\\ImageHelper.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAAABkAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T19:58:59.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Web\\Program.cs",
-              "RelativeDocumentMoniker": "Blog.Web\\Program.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Web\\Program.cs",
-              "RelativeToolTip": "Blog.Web\\Program.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAAAFkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T19:00:09.763Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Data\\Context\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Blog.Data\\Context\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Data\\Context\\AppDbContext.cs",
               "RelativeToolTip": "Blog.Data\\Context\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T18:32:13.279Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IEntityBase.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Core\\Entities\\IEntityBase.cs",
-              "RelativeDocumentMoniker": "Blog.Core\\Entities\\IEntityBase.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Core\\Entities\\IEntityBase.cs",
-              "RelativeToolTip": "Blog.Core\\Entities\\IEntityBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T14:24:43.479Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EntityBase.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Core\\Entities\\EntityBase.cs",
-              "RelativeDocumentMoniker": "Blog.Core\\Entities\\EntityBase.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Core\\Entities\\EntityBase.cs",
-              "RelativeToolTip": "Blog.Core\\Entities\\EntityBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T14:19:53.213Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Core\\Class1.cs",
-              "RelativeDocumentMoniker": "Blog.Core\\Class1.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Core\\Class1.cs",
-              "RelativeToolTip": "Blog.Core\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T14:05:04.194Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Service\\Class1.cs",
-              "RelativeDocumentMoniker": "Blog.Service\\Class1.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Service\\Class1.cs",
-              "RelativeToolTip": "Blog.Service\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T14:04:50.822Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Data\\Class1.cs",
-              "RelativeDocumentMoniker": "Blog.Data\\Class1.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Data\\Class1.cs",
-              "RelativeToolTip": "Blog.Data\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T14:04:27.385Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "dbo.Categories [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BlogDb/True/SqlTable/dbo.Categories.sql",
-              "ToolTip": "dbo.Categories [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-07-17T19:50:32.043Z",
+              "WhenOpened": "2024-07-11T09:36:18.165Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ArticleService.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Service\\Services\\Concrete\\ArticleService.cs",
-              "RelativeDocumentMoniker": "Blog.Service\\Services\\Concrete\\ArticleService.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Service\\Services\\Concrete\\ArticleService.cs",
-              "RelativeToolTip": "Blog.Service\\Services\\Concrete\\ArticleService.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAIwDwAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T19:51:41.876Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Service\\Services\\Concrete\\UserService.cs",
-              "RelativeDocumentMoniker": "Blog.Service\\Services\\Concrete\\UserService.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Service\\Services\\Concrete\\UserService.cs",
-              "RelativeToolTip": "Blog.Service\\Services\\Concrete\\UserService.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T19:58:54.164Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Entity\\Class1.cs",
-              "RelativeDocumentMoniker": "Blog.Entity\\Class1.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Entity\\Class1.cs",
-              "RelativeToolTip": "Blog.Entity\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T14:04:01.937Z"
             },
             {
               "$type": "Bookmark",
@@ -211,12 +71,120 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IEntityBase.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Core\\Entities\\IEntityBase.cs",
+              "RelativeDocumentMoniker": "Blog.Core\\Entities\\IEntityBase.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Core\\Entities\\IEntityBase.cs",
+              "RelativeToolTip": "Blog.Core\\Entities\\IEntityBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T14:24:43.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EntityBase.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Core\\Entities\\EntityBase.cs",
+              "RelativeDocumentMoniker": "Blog.Core\\Entities\\EntityBase.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Core\\Entities\\EntityBase.cs",
+              "RelativeToolTip": "Blog.Core\\Entities\\EntityBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T14:19:53.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Image.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Entity\\Entities\\Image.cs",
+              "RelativeDocumentMoniker": "Blog.Entity\\Entities\\Image.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Entity\\Entities\\Image.cs",
+              "RelativeToolTip": "Blog.Entity\\Entities\\Image.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T14:16:39.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Entity\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "Blog.Entity\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Entity\\Entities\\Category.cs",
+              "RelativeToolTip": "Blog.Entity\\Entities\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T14:15:44.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Article.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Entity\\Entities\\Article.cs",
+              "RelativeDocumentMoniker": "Blog.Entity\\Entities\\Article.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Entity\\Entities\\Article.cs",
+              "RelativeToolTip": "Blog.Entity\\Entities\\Article.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T14:13:53.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Core\\Class1.cs",
+              "RelativeDocumentMoniker": "Blog.Core\\Class1.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Core\\Class1.cs",
+              "RelativeToolTip": "Blog.Core\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T14:05:04.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Service\\Class1.cs",
+              "RelativeDocumentMoniker": "Blog.Service\\Class1.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Service\\Class1.cs",
+              "RelativeToolTip": "Blog.Service\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T14:04:50.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Data\\Class1.cs",
+              "RelativeDocumentMoniker": "Blog.Data\\Class1.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Data\\Class1.cs",
+              "RelativeToolTip": "Blog.Data\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T14:04:27.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "dbo.AspNetUsers [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BlogDb/True/SqlTable/dbo.AspNetUsers.sql",
-              "ToolTip": "dbo.AspNetUsers [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-07-17T19:52:11.003Z"
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Entity\\Class1.cs",
+              "RelativeDocumentMoniker": "Blog.Entity\\Class1.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\myblog\\Blog.Entity\\Class1.cs",
+              "RelativeToolTip": "Blog.Entity\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T14:04:01.937Z",
+              "EditorCaption": ""
             }
           ]
         }

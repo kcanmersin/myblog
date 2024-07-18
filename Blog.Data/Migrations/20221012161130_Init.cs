@@ -279,7 +279,7 @@ namespace Blog.Data.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "FirstName", "ImageId", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { new Guid("cb94223b-ccb8-4f2f-93d7-0df96a7f065c"), 0, "3f676236-3cc9-4dec-816e-a2aa4d6498ea", "superadmin@gmail.com", true, "Cem", new Guid("f71f4b9a-aa60-461d-b398-de31001bf214"), "mersin", false, null, "SUPERADMIN@GMAIL.COM", "SUPERADMIN@GMAIL.COM", "AQAAAAEAACcQAAAAEB+EttghHJ3fzlHEapb//jF1An3Y9CFJ2LTNEdAWDElTtn3uNMWSFzmPI6quAwV+Ww==", "+905439999999", true, "35638e38-2f20-4700-a1ab-fdc72beecb5d", false, "superadmin@gmail.com" });
+                values: new object[] { new Guid("cb94223b-ccb8-4f2f-93d7-0df96a7f065c"), 0, "3f676236-3cc9-4dec-816e-a2aa4d6498ea", "superadmin@gmail.com", true, "Cem", new Guid("f71f4b9a-aa60-461d-b398-de31001bf214"), "Keskin", false, null, "SUPERADMIN@GMAIL.COM", "SUPERADMIN@GMAIL.COM", "AQAAAAEAACcQAAAAEB+EttghHJ3fzlHEapb//jF1An3Y9CFJ2LTNEdAWDElTtn3uNMWSFzmPI6quAwV+Ww==", "+905439999999", true, "35638e38-2f20-4700-a1ab-fdc72beecb5d", false, "superadmin@gmail.com" });
 
             migrationBuilder.InsertData(
                 table: "Articles",
