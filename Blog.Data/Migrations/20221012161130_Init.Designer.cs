@@ -187,7 +187,7 @@ namespace Blog.Data.Migrations
                             EmailConfirmed = true,
                             FirstName = "Cem",
                             ImageId = new Guid("f71f4b9a-aa60-461d-b398-de31001bf214"),
-                            LastName = "Keskin",
+                            LastName = "mersin",
                             LockoutEnabled = false,
                             NormalizedEmail = "SUPERADMIN@GMAIL.COM",
                             NormalizedUserName = "SUPERADMIN@GMAIL.COM",
